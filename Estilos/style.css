@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #ff0000a2;
+    height: 50px;
+    
+}
+nav > ul{
+    position: absolute;
+    right: 0px;
+    top: 3px;
+}
+nav > ul > li {
+    text-align: center;
+    display:inline-block;
+    padding: 10px;
+    border: 2px solid black;  
+
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    
+    
+}
+
+body{
+    background:url(../Imagens/bomb.capa02.jpg)no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height:100vh ;
+}
+#caixa{
+    text-align: center;
+    position: absolute;
+    right:0px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.login{
+    display: grid;
+    align-content: normal;
+    width: 400px;
+    color: white;
+    font-weight:bold ;
+}
+
+form{
+    display: block;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+input{
+    height: 30px;
+    width: 200px;
+}
+
+p > a{
+    color:rgb(6, 6, 247);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+p > a:hover{
+    text-decoration: underline;
+}
+
+p{
+    margin: 10px;
+}
+
+.botao{
+    background-color: #a50f0f85;
+    font-weight: bolder;
+}
+
+.botao:hover{
+    background-color: red;
+}
+

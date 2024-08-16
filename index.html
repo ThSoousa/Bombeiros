@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola de Bombeiros</title>
+    <link rel="stylesheet" href="Estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>QTH Bombeiros</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Entrar</a></li>
+                <li><a href="#">Cadastre-se</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Quem Somos</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="caixa">
+           <div class="login">
+            <fieldset>
+            <legend>LOG IN</legend>
+            <form action="cadastro.php" method="post" autocomplete="off">
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required placeholder="E-mail@e-mail" >
+                </p>
+                <p>
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="*******">
+                </p>
+                <p>
+                <a href="#">Esqueci minha senha</a>
+                 </p>
+             </fieldset>
+        
+           
+            <input class="botao" type="submit" value="Entrar">
+            
+        
+        </form>
+        </div>
+        </section>
+        
+    </main>
+</body>
+</html>

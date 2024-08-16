@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'font-fogo';
+    src: url(../fires/FIRES\ PERSONAL\ USE.ttf) format('truetype');
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,13 +13,19 @@
 
 header {
     background-color: #ff0000a2;
-    height: 50px;
+    height: 60px;
+    display: flex;
+    align-items:last baseline;
     
 }
+
+header > h1 {
+    font-family: 'font-fogo';
+    font-size: 3em;
+    padding-left: 10px;
+}
 nav > ul{
-    position: absolute;
-    right: 0px;
-    top: 3px;
+    
 }
 nav > ul > li {
     text-align: center;
@@ -81,9 +92,14 @@ p{
     margin: 10px;
 }
 
+::placeholder{
+    text-align: center;
+}
+
 .botao{
     background-color: #a50f0f85;
     font-weight: bolder;
+    width: 400px;
 }
 
 .botao:hover{

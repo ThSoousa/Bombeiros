@@ -63,9 +63,9 @@ body{
 #caixa{
     position:absolute;
     text-align: center;
-    right:0px;
+    right:10px;
     top: 50%;
-    transform: translate(-10%,-50%);
+    transform: translate(0%,-50%);
 }
 
 

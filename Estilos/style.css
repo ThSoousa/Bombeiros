@@ -14,8 +14,13 @@
 header {
     background-color: #ff0000a2;
     height: 60px;
+}
+
+header > nav{
+    background-color:#ff0000a2;
     display: flex;
-    align-items:last baseline;
+    justify-content:center;
+    align-items:center;
     
 }
 
@@ -23,10 +28,10 @@ header > h1 {
     font-family: 'font-fogo';
     font-size: 3em;
     padding-left: 10px;
+    text-align: center;
+
 }
-nav > ul{
-    
-}
+
 nav > ul > li {
     text-align: center;
     display:inline-block;
@@ -48,17 +53,20 @@ body{
     width: 100vw;
     height:100vh ;
 }
+
 #caixa{
+    position:absolute;
     text-align: center;
-    position: absolute;
     right:0px;
     top: 50%;
     transform: translate(-50%,-50%);
 }
 
+
 .login{
     display: grid;
-    align-content: normal;
+    align-content: center;
+    justify-content: center;
     width: 400px;
     color: white;
     font-weight:bold ;
@@ -100,6 +108,7 @@ p{
     background-color: #a50f0f85;
     font-weight: bolder;
     width: 400px;
+    color: white ;
 }
 
 .botao:hover{

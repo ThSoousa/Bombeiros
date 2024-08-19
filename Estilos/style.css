@@ -13,7 +13,7 @@
 
 header {
     background-color: #ff0000a2;
-    height: 60px;
+    height: 60px; 
 }
 
 header > nav{
@@ -43,8 +43,11 @@ nav > ul > li {
 li > a {
     text-decoration: none;
     color: white;
-    
-    
+}
+
+li:hover{
+    background-color: rgba(255, 0, 0, 0.712);
+    transition: 1s;
 }
 
 body{

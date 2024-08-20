@@ -15,11 +15,13 @@
 header {
     background-color: #ff0000a2;
     height: 70px; 
+    text-align: center;
 }
 
 .barra{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > div#menu{
@@ -28,7 +30,9 @@ header > div#menu{
     align-items:center;
     
 }
-
+@media(max-width:700px){
+    .barra{flex-direction: column;}
+}
 
 .itens{
     display: flex;
@@ -37,12 +41,12 @@ header > div#menu{
 
 .titulo{
     display: flex;
-    align-items:end;
-    justify-items: end;
+    align-items:center;
+    justify-items: center;
     font-family: 'font-fogo';
     font-size: 2.5em;
     padding-left: 10px;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -61,7 +65,7 @@ a:hover{
     font-weight: bolder ;
 }
 li:hover{
-    background-color:grey;
+    
     transition: 1s;
 }
 

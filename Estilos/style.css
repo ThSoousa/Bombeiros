@@ -16,29 +16,36 @@ header {
     height: 60px; 
 }
 
-header > nav{
-    background-color:#ff0000a2;
+.barra{
     display: flex;
-    justify-content:center;
+    justify-content: space-around;
+}
+
+header > div#menu{
+    display: flex;
+    justify-content:flex-end;
     align-items:center;
     
 }
 
-header > h1 {
+.link{
+    position: relative;
+    display: inline-block;
+    text-decoration:;
+}
+
+
+
+.titulo{
+    display: flex;
     font-family: 'font-fogo';
     font-size: 3em;
     padding-left: 10px;
-    text-align: center;
+    text-align: left;
 
 }
 
-nav > ul > li {
-    text-align: center;
-    display:inline-block;
-    padding: 10px;
-    border: 2px solid black;  
 
-}
 
 li > a {
     text-decoration: none;
@@ -55,19 +62,21 @@ li:hover{
 
 body{
     background:url(../Imagens/bomb.capa02.jpg)no-repeat;
+    background-position:left center ;
     background-size: cover;
     width: 100vw;
     height:100vh ;
 }
 main{
-    width: 90vw;
+    width: 100vw;
+    height: 100vh;
 }
 #caixa{
     position:absolute;
     text-align: center;
-    right:10px;
+    right:50%;
     top: 50%;
-    transform: translate(0%,-50%);
+    transform: translate(50%,-50%);
 }
 
 

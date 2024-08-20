@@ -10,6 +10,7 @@
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+    
 }
 
 header {
@@ -58,6 +59,7 @@ li > a {
     text-decoration: none;
     color: white;
     margin: 10px;
+    padding-right: 10px;
     
 }
 a:hover{
@@ -99,7 +101,6 @@ main{
 }
 
 form{
-    display: block;
     box-sizing: border-box;
     padding: 20px;
     width: 100%;

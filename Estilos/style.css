@@ -14,8 +14,8 @@
 }
 
 header {
-    background-color: #ff0000a2;
-    height: 70px; 
+    background-color: #a10b0b;
+    height: 80px; 
     text-align: center;
 }
 
@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 header > div#menu{
@@ -70,14 +71,15 @@ a:hover{
 }
 
 body{
-    background:url(../Imagens/bomb.capa02.jpg)no-repeat;
-    background-position:left center ;
-    background-size: cover;
+   
     width: 100vw;
     height:100vh ;
 }
 
 main{
+    background:url(../Imagens/bomb.capa02.jpg)no-repeat;
+    background-position:left center ;
+    background-size: cover;
     width: 100vw;
     height: 100vh;
 }
@@ -128,7 +130,7 @@ p{
 }
 
 .botao{
-    background-color: #a50f0f85;
+    background-color: #a50f0fb2;
     font-weight: bolder;
     width: 400px;
     color: white ;

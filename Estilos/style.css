@@ -140,3 +140,23 @@ p{
     background-color: red;
 }
 
+section{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+
+    legend {
+        color: black;
+        font-weight: bolder;
+    }

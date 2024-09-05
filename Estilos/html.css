@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.container{
+    background-color: white;
+    border-radius: 2px;
+}
+
+h1{
+    background-color: brown;
+}
+
+img{
+    width: 400px;
+}

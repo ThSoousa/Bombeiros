@@ -1,14 +1,110 @@
 @charset "UTF-8";
-
-.container{
-    background-color: white;
-    border-radius: 2px;
+@font-face {
+    font-family: 'font-fogo';
+    src: url(../fires/FIRES\ PERSONAL\ USE.ttf) format('truetype');
 }
 
-h1{
-    background-color: brown;
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #6B6D6F;
+}
+
+header {
+    background-color: #a10b0b;
+    height: 80px; 
+    text-align: center;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header > div#menu{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+@media(max-width:700px){
+    .barra{flex-direction: column;}
+}
+
+.itens{
+    display: flex;
+}
+
+
+.titulo{
+    display: flex;
+    align-items:center;
+    justify-items: center;
+    font-family: 'font-fogo';
+    font-size: 2.5em;
+    padding-left: 10px;
+    text-align: center;
+
+}
+
+ul{
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding-right: 10px;
+    
+}
+
+a:hover{
+    color: black;
+    font-weight: bolder ;
+    transition: 1s;
+}
+.contato{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color:;
+    color: white;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
 }
 
 img{
-    width: 400px;
+    width:60%;
+    height: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.qsomos{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color:;
+    color: white;
+}
+
+p{
+    text-align: justify;
+    text-indent: 30px;
 }

@@ -74,7 +74,7 @@ a:hover{
 }
 .contato{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     color: white;
 }
@@ -101,7 +101,7 @@ img{
 }
 
 .img2{
-    width: 98%;
+    width: 100%;
     height: 80%;
 }
 
@@ -123,4 +123,12 @@ p{
     display: flex;
     justify-content: center;
     padding: 10px;
+}
+
+#cursos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
 }

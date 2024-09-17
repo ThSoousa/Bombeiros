@@ -88,6 +88,11 @@ h2{
     font-weight: bolder;
 }
 
+h4{
+    color: black;
+    text-align: left;
+}
+
 img{
     width:60%;
     height: 60%;
@@ -105,4 +110,11 @@ img{
 p{
     text-align: justify;
     text-indent: 30px;
+    padding-right: 20px;
+}
+
+.localizacao{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }

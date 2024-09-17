@@ -14,18 +14,19 @@
         </div>
         <div id="menu">
             <ul class="itens">
-                <li><a href="index.html" class="link">Entrar</a></li>
+                <li><a href="index.html" class="link">Home</a></li>
+                <li><a href="#" class="link">Cursos</a></li>
                 <li><a href="cadastro.html" target="_blank" class="link">Cadastre-se</a></li>
                 <li><a href="contato.html" target="_blank" class="link">Contato</a></li>
-                <li><a href="#" class="link">Serviços</a></li>
+                
             </ul>
         </div>
     </header>
     <main>
-        <section>
+        <section id="cadastro">
             <fieldset>
                 <legend>CADASTRE-SE</legend>
-                <form action="" method="post" autocomplete="off">
+                <form action="Cadastro.php" method="post" autocomplete="off">
                     <p>
                         <label for="nome">Nome:</label>
                         <input type="text" name="nome" id="nome" required placeholder="NOME">
@@ -45,11 +46,15 @@
                     <p>
                         <label for="tel">Telefone:</label>
                         <input type="tel" name="tel" id="tel" required pattern="^\{\d{2}}\d{4,5}-d{4}$" placeholder="(xx) xxxxx-xxxx" minlength="11" maxlength="15">
-                    </p>
-                </form>
+                    </p>  
             </fieldset>
             <p><input class="enviar" type="submit" value="Enviar"></p>
-           <p>Após feito cadastro <a href="index.html">Clique aqui </a> para <a href="index.html">Entrar</a></p>
+                    
+                 </form>
+           
+            <div class="informe">
+           <p>Preencheu todos os dados ? Se sim, Não se preocupe em breve entraremos em contato !</p>
+           </div>
         </section>
     </main>
 </body>

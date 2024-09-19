@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @font-face {
     font-family: 'font-fogo';
     src: url(../fires/FIRES\ PERSONAL\ USE.ttf) format('truetype');
@@ -18,7 +19,6 @@ body{
 
 header {
     background-color: #a10b0b;
-    height: 80px; 
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ header > div#menu{
     
 }
 @media(max-width:700px){
-    .barra{flex-direction: column;}
+ .barra{flex-direction: column;}
 }
 
 .itens{
@@ -137,7 +137,7 @@ p{
 
 .img-cursos{
     width: 400px;
-    height: 400px;
+    height: 300px;
 }
 
 .titulo-curso{

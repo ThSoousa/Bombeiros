@@ -117,11 +117,12 @@ p{
 
 #bt:hover{
     background-color: white;
+    background-color:;
     color: black;
 }
 
 #cadastro{
-    background:#6B6D6F;
+    background-image: linear-gradient(to top, white, brown);
     background-position:center ;
     background-size:cover;
     width: 100vw;
@@ -195,7 +196,7 @@ p > a:hover{
 }
 
 .informe{
-    background-color: white;
+    background-color: rgba(128, 128, 128, 0.349);
     border-radius: 20px;
     text-align: justify;
 }
@@ -203,4 +204,22 @@ p > a:hover{
 .informe > p {
     color: black;
     font-weight: bolder;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+#footerp{
+    margin: 0px;
+    color: white;
+}
+
+footer > p > a{
+    color: white;
+}
+
+footer > p > a:hover{
+    color: red;
 }

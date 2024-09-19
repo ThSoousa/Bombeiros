@@ -73,6 +73,7 @@ a:hover{
 }
 .contato{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     color: white;
@@ -89,12 +90,13 @@ h2{
 
 h4{
     color: black;
+    font-size: 1.5em;
     text-align: left;
 }
 
 img{
-    width:60%;
-    height: 60%;
+    width:450px;
+    height:250px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -113,7 +115,6 @@ img{
 
 p{
     text-align: justify;
-    text-indent: 30px;
     padding: 5px;
     padding-right: 10px;
 }
@@ -141,7 +142,6 @@ p{
 
 .titulo-curso{
     width: 50%;
-    text-align: justify;
     font-weight: bolder;
 }
 

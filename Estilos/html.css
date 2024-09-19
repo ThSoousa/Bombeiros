@@ -36,6 +36,7 @@ header > div#menu{
 }
 @media(max-width:700px){
  .barra{flex-direction: column;}
+ .qsomos{flex-direction: column;}
 }
 
 .itens{

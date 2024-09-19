@@ -64,7 +64,7 @@ li > a {
     color: white;
     margin: 10px;
     padding-right: 10px;
-    
+    font-weight: bolder;
 }
 
 a:hover{
@@ -130,8 +130,20 @@ p{
     flex-direction: row;
     align-items: center;
     align-content: center;
-    justify-content: space-evenly;
-    flex-wrap: Wrap;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.img-cursos{
+    width: 400px;
+    height: 400px;
+}
+
+.titulo-curso{
+    width: 50%;
+    text-align: justify;
+    font-weight: bolder;
 }
 
 div{

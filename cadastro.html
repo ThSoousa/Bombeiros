@@ -47,8 +47,30 @@
                         <label for="tel">Telefone:</label>
                         <input type="tel" name="tel" id="tel" required pattern="^\{\d{2}}\d{4,5}-d{4}$" placeholder="(xx) xxxxx-xxxx" minlength="11" maxlength="15">
                     </p>  
-                    <p><label for="curso">Curso de interresse</label>
-                    <input type="text" name="curso" id="curso"></p>
+                    <p>
+                        <label for="lista-cursos">Curso De Interresse:</label>
+                        <select name="lista-cursos" id="lista-cursos">
+                            <optgroup label="CURSOS">
+                                <option value="" select >--- Escolha ---</option>
+                                <option value="">Curso Bombeiro Civil</option>
+                                <option value="">Curso primeiros-socorros</option>
+                                <option value="">Atendimento pré-hospitalar</option>
+                                <option value="">DEA</option>
+                                <option value="">Brigada De Incêndio</option>
+                                <option value="">Reciclagem Bombeiro Civil</option>
+                                <option value="">Heliponto</option>
+                                <option value="">Produtos Perigosos</option>
+                                <option value="">NR-10</option>
+                                <option value="">NR-18</option>
+                                <option value="">NR-20</option>
+                                <option value="">NR-33</option>
+                                <option value="">NR-35</option>
+                                <option value="">Salva Vidas</option>
+                                <option value="">AVCB</option>
+                            </optgroup>
+                        </select>
+                       
+                    </p>
 
             </fieldset>
             <p><input class="enviar" type="submit" value="Enviar"></p>

@@ -78,7 +78,7 @@ body{
 
 .pg-princ {
     background-color:#a10b0b;
-    background:url(../Imagens/img-bomb.jpg) no-repeat;
+    background:url(../Imagens/img-bombeiro.jpg) no-repeat;
     background-position:top right  ;
     background-size:cover;
     width: 100vw;
@@ -96,7 +96,7 @@ h2{
     text-align: justify;
     color: white;
     text-indent: 30px;
-    padding: 10px;
+    font-size:17px
     
 }
 

@@ -28,30 +28,29 @@
                 <legend>CADASTRE-SE</legend>
                 <form action="Cadastro.php" method="post" autocomplete="off">
                     <p>
-                        <label for="nome">Nome:</label>
-                        <input type="text" name="nome" id="nome" required placeholder="NOME">
+                        <input type="text" name="nome" id="nome" required placeholder="NOME*">
                     </p>
                     <p>
-                        <label for="snome">Sobrenome:</label>
-                        <input type="text" name="snome" id="snome" required placeholder="SOBRENOME">
+                        <input type="text" name="snome" id="snome" required placeholder="SOBRENOME*">
                     </p>
                     <p>
-                        <label for="nascimento">Data de nascimento:</label>
-                        <input type="date" name="data" id="data" required>
+                        <input 
+                        type="text"
+                        placeholder="DATA DE NASCIMENTO*"
+                        onfocus="this.type='date'"
+                        onblur="if (!this.value) this.type='text'">
+                        
                     </p>
                     <p>
-                        <label for="email">E-mail:</label>
-                        <input type="email" name="email" id="email" required placeholder="E-MAIL@EMAIL">
+                        <input type="email" name="email" id="email" required placeholder="E-MAIL@EMAIL*">
                     </p>
                     <p>
-                        <label for="tel">Telefone:</label>
-                        <input type="tel" name="tel" id="tel" required pattern="^\{\d{2}}\d{4,5}-d{4}$" placeholder="(xx) xxxxx-xxxx" minlength="11" maxlength="15">
+                        <input type="tel" name="tel" id="tel" required pattern="^\{\d{2}}\d{4,5}-d{4}$" placeholder="(xx) xxxxx-xxxx*" minlength="11" maxlength="15">
                     </p>  
                     <p>
-                        <label for="lista-cursos">Curso De Interresse:</label>
                         <select name="lista-cursos" id="lista-cursos">
                             <optgroup label="CURSOS">
-                                <option value="" select >--- Escolha ---</option>
+                                <option value="" select >CURSO DE INTERRESSE</option>
                                 <option value="">Curso Bombeiro Civil</option>
                                 <option value="">Curso primeiros-socorros</option>
                                 <option value="">Atendimento pré-hospitalar</option>

@@ -2,7 +2,8 @@
 
 @font-face {
     font-family: 'font-fogo';
-    src: url(../fires/FIRES\ PERSONAL\ USE.ttf) format('truetype');
+    src: url(../fires/Broken.otf) format('opentype')
+     /*url(../fires/FIRES\ PERSONAL\ USE.ttf) format('truetype');*/
 }
 
 *{
@@ -46,7 +47,7 @@ header > div#menu{
     align-items:center;
     justify-items: center;
     font-family: 'font-fogo';
-    font-size: 2.5em;
+    font-size: 3em;
     padding-left: 10px;
     text-align: center;
 
